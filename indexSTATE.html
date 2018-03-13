@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>ToDo List</title>
+  <style>
+    body {
+      text-align: center;
+      font-family: "Gill Sans", sans-serif;
+    }
+    ul {
+      list-style-type: none;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+
+    li button {
+      font-size: 8px;
+      margin-left: 20px;
+      color: #000;
+    }
+    .done {
+      text-decoration-line: line-through;
+    }
+  </style>
+</head>
+<body>
+  <h1>to dos</h1>
+  <div>
+    <label for="todo">ttd</label>
+    <input type="text" name="todo" id="todo">
+    <button id="addButton">add</button>
+  </div>
+
+  <ul>
+  </ul>
+
+  <div>
+    <button id="killButton">delete done</button>
+  </div>
+
+  <script src="todoListSTATE.js"></script>
+</body>
+</html>
