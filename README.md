@@ -1,2 +1,3 @@
-# toDoList
-This is my toDoList "website"
+# Todo List
+
+This is my todo list app
